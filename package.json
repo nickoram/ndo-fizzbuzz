@@ -13,6 +13,7 @@
   "author": "Nicholas Oram",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^2.3.4"
+    "mocha": "^2.3.4",
+    "mocha-jshint": "^2.2.5"
   }
 }
