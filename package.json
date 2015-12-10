@@ -11,5 +11,8 @@
     "url": "https://hub.jazz.net/git/oram/ndo-fizzbuzz"
   },
   "author": "Nicholas Oram",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
 }
