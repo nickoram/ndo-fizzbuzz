@@ -1,5 +1,4 @@
-.project
-.settings/
-node_modules/
 launchConfigurations/
+.git/
+node_modules/
 npm-debug.log
