@@ -39,15 +39,15 @@ describe("FizzBuzz", function() {
     describe("convertRangeToFizzBuzz()", function() {
         it("returns in correct order", function() {
             var expected = ["1", "2", "Fizz"];
-            expect(f.convertRangeToFizzBuzz(1,3)).to.be.eql(expected);
+            expect(f.convertRangeToFizzBuzz("1","3")).to.be.eql(expected);
         });
 
         it("applies FizzBuzz to every number in the range", function() {
             var spy = sinon.spy(f, "convertToFizzBuzz");
 
-            f.convertRangeToFizzBuzz(1, 50);
+            f.convertRangeToFizzBuzz("9", "50");
 
-            for (var i = 1; i <= 50; i++) {
+            for (var i = 9; i <= 50; i++) {
                 expect(spy.withArgs(i).calledOnce).to.be.eql(
                     true,
                     "Expected convertToFizzBuzz to be called with " + i
