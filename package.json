@@ -18,5 +18,8 @@
     "mocha-jshint": "^2.2.5",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
   }
 }
